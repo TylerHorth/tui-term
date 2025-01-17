@@ -33,7 +33,7 @@ unstable = ["dep:portable-pty"]
 
 [dependencies]
 ratatui = { version = "0.29.0", default-features = false }
-vt100 = { version = "0.15.2", optional = true }
+vt100 = { git = "https://github.com/doy/vt100-rust.git", rev = "ec615f087c737d9210db002edef75cdbeda5f5f5", optional = true }
 portable-pty = { version = "0.8.1", optional = true }
 
 [dev-dependencies]
